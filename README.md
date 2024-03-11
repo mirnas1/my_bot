@@ -1,7 +1,7 @@
-## Robot Package Template
+## Autonomous Driving Sim
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+In progress Autonomous driving project using ROS, python and gazebo as a simulation workspace.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
+Only a portion of the project and what needs to be done. This specific repo is focused in developing an adaptive cruise control system using a depth camera. 
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+Two identical cars created with one having a camera to track the car in front of it.
